@@ -71,10 +71,11 @@ header .nav a {
 }
 
 .avatar {
-	background: #FFFFFF url(../i/face.png) no-repeat 0 0;
+	
 	width: 60px;
+	-webkit-background-size: cover;
+	background-size: cover;
 	height: 60px;
-	border-radius: 30px;
 	margin: 10px 0;
 	cursor: pointer;
 }
@@ -219,8 +220,7 @@ header .nav a {
 	top: -25px;
 	left: 0;
 	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	height: 70px;
 	overflow: hidden;
 }
 
